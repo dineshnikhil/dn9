@@ -231,6 +231,8 @@ nav {
 
 .about {
 
+    padding-top: 14vh;
+
     h1 {
         color: $second_font_color;
         font-weight: bolder;
@@ -258,6 +260,11 @@ nav {
             color: $main_font_color;
             // margin-bottom: 8%;
             margin: 1% 1% 8% 1%;
+            font-weight: normal;
+            transition: 0.3s ease-in-out;
+            &:hover{
+                color: $second_font_color;
+            }
         }
 
         .btn {
@@ -280,6 +287,7 @@ nav {
 }
 
 .skills {
+    padding-top: 14vh;
     h1 {
         color: $second_font_color;
     }
@@ -312,49 +320,51 @@ nav {
 
 #projects {
 
+    padding-top: 14vh;
+
     h1 {
         color: $second_font_color;
     }
-    .carousel-item {
-        // height: 50vh;
-        .card {
-            margin: 0 auto;
-            height: 63vh;
-            background-color: transparent !important;
-            .card-img-top {
-                // height: 20rem;
-                // border-radius: 50%;
-            }
 
-            .card-body {
-                .btn {
-                    background-color: $main_font_color;
-                    border-radius: 56px;
-                    color: black;
-                }
-            }
-            .card-title {
-                font-size: 1.7rem;
-                font-weight: bold;
-            }
+    .col-lg-12 {
 
-            .project-info {
-                color: $second_font_color;
-                font-size: 1.2rem;
-            }
+        margin: 2.5% 0;
+
+        h1 {
+            color: $main_font_color;
         }
-        
-    }
 
-    .pro-img-1 {
-        background-image: url("images/contact.svg");
-        width: 200px;
-        height: 200px;
+        p {
+            color: $second_font_color;
+        }
+
+        .comment {
+            color: $thirs_font_color;
+        }
+
+        .project-img {
+            float: left;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        .project-img-1 {
+            float: right;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+
     }
+    
+    
 
 }
 
 .contact {
+    padding-top: 14vh;
     h1 {
         color: $second_font_color;
     }

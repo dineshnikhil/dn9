@@ -276,6 +276,10 @@ nav .social-link:hover {
   color: #797A7A;
 }
 
+.about {
+  padding-top: 14vh;
+}
+
 .about h1 {
   color: #DBDBDB;
   font-weight: bolder;
@@ -304,6 +308,13 @@ nav .social-link:hover {
   font-size: 2rem;
   color: #682AE9;
   margin: 1% 1% 8% 1%;
+  font-weight: normal;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.about .info-container i:hover {
+  color: #DBDBDB;
 }
 
 .about .info-container .btn {
@@ -322,6 +333,10 @@ nav .social-link:hover {
 .about .info-container .btn .fas {
   color: black;
   font-size: 1.3rem;
+}
+
+.skills {
+  padding-top: 14vh;
 }
 
 .skills h1 {
@@ -348,36 +363,48 @@ nav .social-link:hover {
   margin-right: 4%;
 }
 
+#projects {
+  padding-top: 14vh;
+}
+
 #projects h1 {
   color: #DBDBDB;
 }
 
-#projects .carousel-item .card {
-  margin: 0 auto;
-  height: 63vh;
-  background-color: transparent !important;
+#projects .col-lg-12 {
+  margin: 2.5% 0;
 }
 
-#projects .carousel-item .card .card-body .btn {
-  background-color: #682AE9;
-  border-radius: 56px;
-  color: black;
+#projects .col-lg-12 h1 {
+  color: #682AE9;
 }
 
-#projects .carousel-item .card .card-title {
-  font-size: 1.7rem;
-  font-weight: bold;
-}
-
-#projects .carousel-item .card .project-info {
+#projects .col-lg-12 p {
   color: #DBDBDB;
-  font-size: 1.2rem;
 }
 
-#projects .pro-img-1 {
-  background-image: url("images/contact.svg");
-  width: 200px;
-  height: 200px;
+#projects .col-lg-12 .comment {
+  color: #797A7A;
+}
+
+#projects .col-lg-12 .project-img {
+  float: left;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#projects .col-lg-12 .project-img-1 {
+  float: right;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.contact {
+  padding-top: 14vh;
 }
 
 .contact h1 {
